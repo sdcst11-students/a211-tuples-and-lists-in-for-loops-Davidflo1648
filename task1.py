@@ -6,3 +6,11 @@ Use a for loop to iterate through the list of numbers.
 If the number is an even number print it out.
 """
 numbers = [3,19,3,6,3,6,7,8,5,4,6,78,0]
+
+for i in numbers:
+    if i % 2 == 0 or i>0:
+        print(i)
+    elif i==0:
+        continue
+    else:
+        continue
